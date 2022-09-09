@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point
  * Return: Always 0 (success)
  */
 int main(void)
@@ -11,10 +11,10 @@ int main(void)
 	long long ll;
 	float f;
 
-	printf("Size of a char: %ld byte(s)\n", (unsigned int) size of (c));
-	printf("Size of a int: %ld byte(s)\n", (unsigned int) size of (i));
-	printf("Size of a long int: %ld byte(s)\n", (unsigned int) size of (li));
-	printf("size of a long long int: %ld byte(s)\n", (unsigned int) size of (ll));
-	printf("Size of float: %ld byte(s)\n", (unsigned int) size of (f));
+	printf("Size of a char: %ld byte(s)\n", (unsigned int) sizeof (c));
+	printf("Size of a int: %ld byte(s)\n", (unsigned int) sizeof (i));
+	printf("Size of a long int: %ld byte(s)\n", (unsigned int) sizeof (li));
+	printf("size of a long long int: %ld byte(s)\n", (unsigned int) sizeof (ll));
+	printf("Size of float: %ld byte(s)\n", (unsigned int) sizeof (f));
 	return (0);
 }
