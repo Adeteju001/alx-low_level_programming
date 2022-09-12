@@ -3,7 +3,7 @@
  * main - Entry point
  * Description: Print the size of various types on the computer
  * Return: returns 0 
- **/
+ */
 int main(void)
 {
 	printf("size of a char: %d byte(s)\n", (int) sizeof(char));
