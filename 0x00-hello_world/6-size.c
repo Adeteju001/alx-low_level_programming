@@ -1,11 +1,8 @@
 #include<stdio.h>
 /**
  * main - Entry point
- *
  * Description: Print the size of various types on the computer
- *
- * Return: returns 0
- * 
+ * Return: returns 0 
  **/
 int main(void)
 {
