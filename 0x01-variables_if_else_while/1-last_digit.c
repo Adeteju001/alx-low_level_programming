@@ -2,9 +2,8 @@
 #include<time.h>
 #include<stdio.h> 
 /**
- * main - Entry mode
- * Description: Assigns random number to variable  n each time it is  executed
- * Return: returns 0 
+ * main - Entry 
+ * Return: Always  0 
  */
 int main(void)
 {
