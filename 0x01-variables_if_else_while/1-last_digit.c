@@ -3,7 +3,7 @@
 /**
  * Return: Always  0 (Success) 
  */
- int main(void)
+ intmain(void)
 {
 	int n;
 	int last;
