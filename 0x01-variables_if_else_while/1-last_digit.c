@@ -1,9 +1,10 @@
 #include<stdlib.h>
 #include<time.h>
+#include<stdio.h>
 /**
  * Return: Always  0 (Success) 
  */
- intmain(void)
+ int main(void)
 {
 	int n;
 	int last;
