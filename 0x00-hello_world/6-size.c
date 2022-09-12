@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description: Print the size of various types on the computer
- * Return: returns0 
+ * Return: 0 
  **/
 int main(void)
 {
