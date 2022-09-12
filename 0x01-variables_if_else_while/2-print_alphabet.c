@@ -5,13 +5,12 @@
  */
 int main(void)
 {
-	char alpha; 
-	alpha = 'a'; 
-	while (alpha <= 'z') 
+	int ch; 
+
+	for (ch = 97; ch <= 122; ch++) 
 	{
-		printf("%c", alpha); 
-		alpha++; 
+		putchar(ch); 
 	}
-	printf("\n"); 
+	putchar(10); 
 	return (0); 
 }
