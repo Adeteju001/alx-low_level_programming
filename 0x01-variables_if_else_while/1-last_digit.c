@@ -2,7 +2,7 @@
  #include<time.h>
  #include<stdio.h> 
 /**
- * main -Entry point 
+ * main - Entry point 
  * Description: Assigns random number to variable  n each time it is  executed
  * Return: returns 0 
  */
