@@ -6,8 +6,7 @@
  */
 int main(void)
 {
-	char alphabt;
-		
+	char alphabt;	
 	for (alphabt = 'a'; alphabt <= 'z'; alphabt++)
 		if (alphabt != 'e' && alphabt != 'q')
 	putchar(alphabt);
