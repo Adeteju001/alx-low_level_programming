@@ -1,16 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
 /**
- * main - Entry mode
- * Return: Always 0 (Success)
+ * main - entry mode
+ * Return: returns 0
  */
-int main(void)
+int main()
 {
-	int Ch;; 
+	char a;
 
-	for (ch = 97; ch <= 122; ch++) 
-	{
-		putchar(ch); 
-	}
-	putchar(10); 
-	return (0); 
+	for (a = 'a'; a <= 'z'; a++)
+		putchar(a'\n');
+	return (0);
 }
