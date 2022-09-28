@@ -12,8 +12,8 @@ int main(void)
 	{
 		if (alphabt == 'e' || alphabt == 'q')
 			continue;
-	}
 	putchar(alphabt);
+	}
 	putchar('\n');
 	return (0);
 }
