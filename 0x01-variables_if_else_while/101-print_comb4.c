@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+/**
+ * main - entry code
+ * Return: returns 0
+ */
+int main(void)
+{
+	char a, b, c;
+
+	for (a = '0'; a <= '7' a++)
+	{
+		for (b = a+1; b <= '8' b++)
+		{
+			for (c = b+1; c <= '9'; c++)
+			{
+				if (a == b)
+					continue;
+				putchar(a);
+				putchar(b);
+				putchar(c);
+				(a == '7'; && b == '8' && '9')
+					continue;
+				putchar(',');
+				putchar(' ');
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
+}
+
