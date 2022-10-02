@@ -13,7 +13,7 @@ int main(void)
 		{
 			for (b = a + 1; b <= '9'; b++)
 			{
-				if ( a == b)
+				if (a == b)
 					continue;
 				putchar(a);
 				putchar(b);
