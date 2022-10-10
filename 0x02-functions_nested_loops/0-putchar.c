@@ -3,7 +3,7 @@
 #include <time.h>
 #include <main.h>
 /**
- * main entry code
+ * main - entry mode
  * Return: returns 0
  */
 int main(void)
