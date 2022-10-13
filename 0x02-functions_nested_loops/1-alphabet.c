@@ -1,19 +1,13 @@
-#include "prototype.h"
-
+#include "main.h"
 /**
- * print_alphabet - prints the alphabet, in lowercase, followed by a new line
+ *print_alphabet - Entry mode
+ * Return: Always 0
  */
 void print_alphabet(void)
 {
-	char ch;
+	int a;
 
-	ch = 'a';
-
-	while (ch <= 'z')
-	{
-		_putchar(ch);
-		ch++;
-	}
-
+	for (a = 'a'; a <= 'z'; a++)
+		_putchar(a);
 	_putchar('\n');
 }
