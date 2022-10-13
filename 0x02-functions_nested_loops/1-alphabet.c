@@ -1,6 +1,6 @@
 nclude "main.h"
 /**
- *print_alphabet - Entry mode
+ *print_alphabet_ - Entry mode
  * Return: Always 0
  */
 void print_alphabet(void)
