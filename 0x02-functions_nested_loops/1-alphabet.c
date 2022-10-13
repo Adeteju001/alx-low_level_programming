@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  *print_alphabet - Entry mode
  * Return: Always 0
