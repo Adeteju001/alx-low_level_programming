@@ -1,1 +1,1 @@
-C - functions, nested loops README
+0x02. C - Functions, nested loops
