@@ -1,32 +1,36 @@
-nclude <stdio.h>
+#include <stdio.h>
+
 /**
-* main - Entry point
-*
-* Return: 0
-*/
+ * main - create 2 pairs of numbers that do not repeat
+ * Return: 0
+ */
 int main(void)
 {
-int numLeft;
-int numLast;
-for (numLeft = 0; numLeft < 100; numLeft++)
-{
-for (numLast = 0; numLast < 100; numLast++)
-{
-if (numLeft < numLast)
-{
-putchar(numLeft / 10 + 48);
-putchar(numLeft % 10 + 48);
-putchar(32);
-putchar(numLast / 10 + 48);
-putchar(numLast % 10 + 48);
-if (numLeft < 98)
-{
-putchar(44);
-putchar(32);
-}
-}
-}
-}
-putchar('\n');
-return (0);
+	int j, i;
+
+	for (j = 0; j <= 99; j++)
+	{
+		for (i = j; i <= 99; i++)
+		{
+			if (i != j)
+			{
+
+				putchar(j / 10 + 48);
+				putchar(j % 10 + 48);
+				putchar(' ');
+				putchar(i / 10 + 48);
+				putchar(i % 10 + 48);
+
+				if (j * 100 + i != 9899)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+
+		}
+
+	}
+	putchar('\n');
+	return (0);
 }
