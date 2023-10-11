@@ -1,1 +1,1 @@
-C function readme
+functions nested loop readme
